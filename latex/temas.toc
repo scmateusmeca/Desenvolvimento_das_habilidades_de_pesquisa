@@ -1,0 +1,9 @@
+\babel@toc {portuguese}{}
+\beamer@sectionintoc {1}{A Robot Application for Marine Vessel Inspection}{2}{0}{1}
+\beamer@subsectionintoc {1}{1}{INTRODUCTION}{2}{0}{1}
+\beamer@subsectionintoc {1}{2}{REENGINEERED INSPECTION PROCEDURE}{3}{0}{1}
+\beamer@subsectionintoc {1}{3}{MINOAS INSPECTION PLATFORMS}{4}{0}{1}
+\beamer@subsectionintoc {1}{4}{A VISION-BASED SOLUTION FOR DEFECT DETECTION}{5}{0}{1}
+\beamer@subsectionintoc {1}{5}{SPATIAL CONTENT MANAGEMENT SYSTEM FOR ROBOT-ACQUIRED INSPECTION DATA}{6}{0}{1}
+\beamer@subsectionintoc {1}{6}{SYSTEM PERFORMANCE EVALUATION}{7}{0}{1}
+\beamer@subsectionintoc {1}{7}{CONCLUSION AND FUTURE RESEARCH}{8}{0}{1}
