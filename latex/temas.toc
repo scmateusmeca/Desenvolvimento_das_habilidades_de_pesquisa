@@ -1,10 +1,10 @@
 \babel@toc {english}{}
 \beamer@sectionintoc {1}{A Robot Application for Marine Vessel Inspection}{2}{0}{1}
 \beamer@subsectionintoc {1}{1}{REENGINEERED INSPECTION PROCEDURE}{3}{0}{1}
-\beamer@subsectionintoc {1}{2}{AERIAL INSPECTION ROBOT}{5}{0}{1}
-\beamer@subsectionintoc {1}{3}{LIGHTWIGHT INSPECTION ROBOT}{6}{0}{1}
-\beamer@subsectionintoc {1}{4}{HEAVYWEIGHT INSPECTION ROBOT}{8}{0}{1}
-\beamer@subsectionintoc {1}{5}{A VISION-BASED SOLUTION FOR DEFECT DETECTION}{9}{0}{1}
-\beamer@subsectionintoc {1}{6}{SPATIAL CONTENT MANAGEMENT SYSTEM FOR ROBOT-ACQUIRED INSPECTION DATA}{10}{0}{1}
-\beamer@subsectionintoc {1}{7}{SYSTEM PERFORMANCE EVALUATION}{11}{0}{1}
-\beamer@subsectionintoc {1}{8}{CONCLUSION AND FUTURE RESEARCH}{14}{0}{1}
+\beamer@subsectionintoc {1}{2}{AERIAL INSPECTION ROBOT}{6}{0}{1}
+\beamer@subsectionintoc {1}{3}{LIGHTWIGHT INSPECTION ROBOT}{7}{0}{1}
+\beamer@subsectionintoc {1}{4}{HEAVYWEIGHT INSPECTION ROBOT}{9}{0}{1}
+\beamer@subsectionintoc {1}{5}{A VISION-BASED SOLUTION FOR DEFECT DETECTION}{10}{0}{1}
+\beamer@subsectionintoc {1}{6}{SPATIAL CONTENT MANAGEMENT SYSTEM FOR ROBOT-ACQUIRED INSPECTION DATA}{11}{0}{1}
+\beamer@subsectionintoc {1}{7}{SYSTEM PERFORMANCE EVALUATION}{12}{0}{1}
+\beamer@subsectionintoc {1}{8}{CONCLUSION AND FUTURE RESEARCH}{15}{0}{1}
