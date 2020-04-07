@@ -1,7 +1,7 @@
 \documentclass{beamer}
 
 \usepackage[utf8]{inputenc}
-\usepackage[portuguese]{babel}
+\usepackage[english]{babel}
 \usepackage{graphicx}
 
 \usetheme{Warsaw}
@@ -19,19 +19,19 @@
     \end{frame}
     
     \section{A Robot Application for Marine Vessel Inspection}
-
-        \subsection{INTRODUCTION}
-
+      
             \begin{frame}{INTRODUCTION}
                 \begin{figure}[htb]
                     \centering
                     \includegraphics[scale=0.16]{figuras/traditional_inspection.png}                   
-                    \label{}
+                    \caption{Traditional Inspection Methods}
+                    \label{}                    
                 \end{figure}
-                Overview \\
-                Traditional Inspection \\
-                MINOAS \\
-                Spatial Content Management System (SCMS)                           
+                    - Overview \\
+                    Traditional Inspection \\
+                    MINOAS \\
+                    Spatial Content Management System (SCMS)                
+                           
             \end{frame}
             
         \subsection{REENGINEERED INSPECTION PROCEDURE}
@@ -41,40 +41,137 @@
                     \centering
                     \includegraphics[scale=0.35]{figuras/inspection_stages}                   
                     \label{}
+                    \caption{Relation Between Systems and Inspection Stages}
                 \end{figure}
-                Fast visual inspection \\
-                Visual close-up survey \\
-                Thickness measurement collection
-            \end{frame}
 
-        \subsection{MINOAS INSPECTION PLATFORMS}
+
+            \end{frame}
 
             \begin{frame}{MINOAS Inspecton Platforms}
-                o terceiro frame            
+                    Laser Scan \\
+                    IMU \\
+                    SLAM \\
+                    Infrared or Ultrasound sensor \\                   
+                    \begin{figure}[htb]
+                        \centering
+                        \includegraphics[scale=0.19]{figuras/platform_overview.png}                   
+                        \label{}
+                        \caption{Aerial Vehicle}
+                    \end{figure}
             \end{frame}
 
-        \subsection{A VISION-BASED SOLUTION FOR DEFECT DETECTION}
+        \subsection{AERIAL INSPECTION ROBOT}
 
-            \begin{frame}{A VISION-BASED SOLUTION FOR DEFECT DETECTION}
-                o quarto frame            
+            \begin{frame}{Aerial Inpection Robot}
+                \centering
+                Aerial Inspection Robot For Stage 1                
+                    \begin{figure}[htb]
+                        \centering
+                        \includegraphics[scale=0.24]{figuras/self-localization.png}                   
+                        \label{}
+                        \caption{Self-Localization, Mapping and Mission Execution Modules}
+                    \end{figure} 
+            \end{frame}
+
+            \subsection{LIGHTWIGHT INSPECTION ROBOT}
+            \begin{frame}{Lightweight Inspection Robot}
+                \centering
+                Lightweight Inspection Robot For Stage 2
+                    \begin{figure}[htb]
+                        \centering
+                        \includegraphics[scale=0.2]{figuras/lightweight_crawler.png}                   
+                        \label{}
+                        \caption{The Lightweight Crawler}
+                    \end{figure}                 
+            \end{frame} 
+
+            \begin{frame}{Lightweight Inspection Robot}
+                \centering
+                Lightweight Inspection Robot For Stage 2 
+                    \begin{figure}[htb]
+                        \centering
+                        \includegraphics[scale=0.15]{figuras/overview_of_the_control_software_of_the_lightweight_system.png}                   
+                        \label{}
+                        \caption{Control Software of the Lightweight System}
+                    \end{figure} 
+            \end{frame}        
+            
+        \subsection{HEAVYWEIGHT INSPECTION ROBOT}
+
+            \begin{frame}{Heavyweight Inspection Robot}
+                 
+                \begin{figure}[htb]
+                    \centering
+                    \includegraphics[scale=0.16]{figuras/MARC_rear_wheel_configurations.png}                   
+                    \label{}
+                    \caption{MARC Rear Wheel Configurations}
+                \end{figure}           
             \end{frame}            
+
+        \subsection{A VISION-BASED SOLUTION FOR DEFECT DETECTION}
+            \begin{frame}{A Vision-Based Solution for Defect Detection}
+                - Corrosion Detection; \\
+                    Roughness is measured \\
+                    Color information \\
+                - Crack Detection; \\
+                    N x N pixel \\
+                    M x M pixel \\ 
+                \begin{figure}[htb]
+                    \hfill \includegraphics[scale=0.13]{figuras/corroded_aread_detected.png}                   
+                    \label{}
+                \end{figure}  
+            \end{frame}        
 
         \subsection{SPATIAL CONTENT MANAGEMENT SYSTEM FOR ROBOT-ACQUIRED INSPECTION DATA}
 
-            \begin{frame}{SPATIAL CONTENT MANAGEMENT SYSTEM FOR ROBOT-ACQUIRED INSPECTION DATA}
-                o quinto frame            
-            \end{frame}        
+            \begin{frame}{Spatial Content Management System for Robot-Acquired Inspection Data}
+                \begin{figure}[htb]
+                    \hfill \includegraphics[scale=0.15]{figuras/the_spatial_content_management_system.png}                   
+                    \label{}
+                \end{figure}                 
+                - SCMS Data; \\
+                Collecting \\
+                Sharing \\
+                Displaying
+
+            \end{frame}
 
         \subsection{SYSTEM PERFORMANCE EVALUATION}
 
-            \begin{frame}{SYSTEM PERFORMANCE EVALUATION}
-                o sexto frame            
+            \begin{frame}{System Performance Evaluation}
+                Micro-aerial vehicle (MAV) 
+                \begin{figure}[htb]
+                    \centering
+                    \includegraphics[scale=0.18]{figuras/MAV_results_in_autonomous_moode_from_the_second_field_trial.png}                   
+                    \label{}
+                \end{figure} 
+            \end{frame}
+
+            \begin{frame}{System Performance Evaluation}
+                Lightweight Crawler  
+                \begin{figure}[htb]
+                    \centering
+                    \includegraphics[scale=0.18]{figuras/frist_trial_for_the_lightweight_crawler.png}                   
+                    \label{}
+                \end{figure}         
+            \end{frame}
+            
+            \begin{frame}{System Performance Evaluation}
+                Heavyweight 
+                \begin{figure}[htb]
+                    \centering
+                    \includegraphics[scale=0.3]{figuras/MARC_on_a_vertical.png}                   
+                    \label{}
+                \end{figure}           
             \end{frame}
             
         \subsection{CONCLUSION AND FUTURE RESEARCH}
-
             \begin{frame}{CONCLUSION AND FUTURE RESEARCH}
-                o setimo frame            
+                \centering Thanks           
+            \end{frame}
+            
+            \begin{frame}{CONCLUSION AND FUTURE RESEARCH}
+                \centering Thanks           
             \end{frame}
 
 \end{document}
